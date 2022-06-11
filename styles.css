@@ -28,8 +28,44 @@ a{
     color: black;
     font-weight: bold;
 }
+a:hover{
+    color:brown;
+}
 header{
     background-color:antiquewhite;
     height: calc(100vh - 60px);
     padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 72px;
+}
+.laptop{
+}
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0px;
+}
+button{
+    background-color:#be867e;
+    color: white;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;    
+}
+button:hover{
+    background-color: #faccc6;
+    color: black;
+}
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+   
 }
