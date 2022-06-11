@@ -50,6 +50,7 @@ h1{
 }
 button{
     background-color:#be867e;
+    outline: auto;
     color: white;
     padding: 8px 16px;
     font-size: 24px;
