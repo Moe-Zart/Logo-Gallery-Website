@@ -13,8 +13,7 @@ nav {
   background-color: #faafa5;
 }
 .logo {
-  width: 22%;
-  min-width: 200px;
+  max-width: 340px;
   margin: 8px 0;
 }
 ul {
@@ -172,6 +171,7 @@ form {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 input,
 textarea {
@@ -180,14 +180,86 @@ textarea {
 footer {
   background-color: #faafa5;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.footer-logo{
+.footer-logo {
   max-width: 500px;
 }
-.footer-links{
+.footer-links {
   margin: 16px 0;
+}
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+  .header-text {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .subheader{
+    text-align: center;
+    font-size: 28px;
+  }
+  .start-button{
+    max-width: 240px;
+  }
+  ul{
+    display: none;
+  }
+  .layout{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-wrapper{
+    width: 100%;
+  }
+  .about-p{
+    font-size: 20px;
+  }
+  .about-img-wrapper{
+    padding-top: 32px;
+    width: 100%;
+  }
+  .ea-img-wrapper{
+    width: 100%;
+  }
+  .ea-p{
+    padding: 0 12px;
+  }
+  .eb-img-wrapper{
+    width: 100%;
+  }
+  .eb-p-wrapper{
+    margin-top:24px;
+    width: 100%;
+  }
+  .eb-p{
+    font-size: 20px;
+    padding: 12px 0;
+  }
+  .ec{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ec-img-wrapper{
+    width: 100%;
+  }
+  .ec-p-wrapper{
+    width: 100%;
+  }
+  .ec-p{
+    font-size: 20px;
+  }
+  footer{
+    padding: 48px 24px;
+  }
 }
