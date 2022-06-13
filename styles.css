@@ -196,18 +196,18 @@ footer {
     flex-direction: column;
   }
   .header-text {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
   }
   .subheader{
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
   }
   .start-button{
     max-width: 240px;
@@ -220,22 +220,29 @@ footer {
     flex-direction: column;
   }
   .about-wrapper{
+    margin-top: 48px;
     width: 100%;
   }
+  h2{
+    font-size: 32px;
+  }
   .about-p{
-    font-size: 20px;
+    font-size: 12px;
   }
   .about-img-wrapper{
     padding-top: 32px;
     width: 100%;
   }
   .ea-img-wrapper{
+    margin-top:48px;
     width: 100%;
   }
   .ea-p{
+    font-size: 12px;
     padding: 0 12px;
   }
   .eb-img-wrapper{
+    margin-top: 48px;
     width: 100%;
   }
   .eb-p-wrapper{
@@ -243,7 +250,7 @@ footer {
     width: 100%;
   }
   .eb-p{
-    font-size: 20px;
+    font-size: 12px;
     padding: 12px 0;
   }
   .ec{
@@ -251,13 +258,15 @@ footer {
     flex-direction: column-reverse;
   }
   .ec-img-wrapper{
+    margin-top: 48px;
     width: 100%;
   }
   .ec-p-wrapper{
     width: 100%;
   }
   .ec-p{
-    font-size: 20px;
+    font-size: 12px;
+    padding: 12px 0;
   }
   footer{
     padding: 48px 24px;
